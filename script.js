@@ -3,8 +3,8 @@ const buttons = document.querySelectorAll('.btn');
 const stopBtn = document.querySelector('.stop');
 
 let currentAudio = null;
-buttons.foreach(buttons => {
-	buttons.addEventListener('click', () => {
+buttons.forEach(button => {
+	button.addEventListener('click', () => {
 		const soundName = button.getAttribute('data-sound');
 		if(currentAudio){
 			currentAudio.pause();

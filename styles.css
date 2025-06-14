@@ -1,1 +1,12 @@
 /*  your css code here. If applicable */
+#buttons{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn, .stop{
+	background-color:blueviolet;
+	color:white;
+	padding: 10px;
+	border:none;
+}
